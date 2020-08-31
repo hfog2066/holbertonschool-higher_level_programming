@@ -1,1 +1,0 @@
-<h1> This repository contains C programming tasks for Holberton School</h1>
