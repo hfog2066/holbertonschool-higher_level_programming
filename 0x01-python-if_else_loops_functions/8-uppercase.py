@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def uppercase(str):
     print("".format()
           .join(list(map(lambda x: chr(ord(x) -32)
