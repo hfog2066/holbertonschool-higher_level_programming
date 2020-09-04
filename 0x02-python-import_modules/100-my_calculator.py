@@ -10,6 +10,6 @@ if __name__ == "__main__":
         if args[2] not in "+-*/":
             print("Unknown operator. Available operators: +, -, * and /")
             sys.exit(1)
-        a, op, b = int(args[1]), args[2], int(args[3])
-        c = table[args[2]](a, b)
-        print("{} {} {} = {}".format(a, op, b, c))
+            a, op, b = int(args[1]), args[2], int(args[3])
+            c = table[args[2]](a, b)
+            print("{} {} {} = {}".format(a, op, b, c))
