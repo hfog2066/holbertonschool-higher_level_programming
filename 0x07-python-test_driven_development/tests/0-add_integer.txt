@@ -1,0 +1,57 @@
+The ``add_integer`` module
+======================
+
+Using ``add_integer``
+-------------------
+
+Import file
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Test two regular numbers
+>>> add_integer(1, 2)
+3
+
+Test just one argument
+>>> add_integer(1)
+99
+
+Test string as second argument
+>>> add_integer(1, "2")
+Traceback (most recent call last):
+TypeError: b must be an integer
+
+Test list as first argument
+>>> add_integer([1, 2, 3], 2)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+Test two floats
+>>> add_integer(1.2, 2.3)
+3
+
+Test two negative floats
+>>> add_integer(-4, -5)
+-9
+
+Test adding float and integer
+>>> add_integer(-9.1, 5.9)
+-4
+
+Test adding zero and integer
+>>> add_integer(0, 424.2)
+424
+
+Test for float infinity
+>>> add_integer(2, float("inf"))
+Traceback (most recent call last):
+OverflowError: cannot convert float infinity to integer
+
+Test for NaN
+>>> add_integer(5, float("nan"))
+Traceback (most recent call last):
+ValueError: cannot convert float NaN to integer
+
+Test for no arguments
+>>> add_integer()
+Traceback (most recent call last):
+TypeError: add_integer() missing 1 required positional argument: 'a'
