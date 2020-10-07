@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-"""MyList
+
+"""
+MyList module
+
 """
 
 
 class MyList(list):
-    """Contains list
-    """
+    """Contains list. """
 
     def print_sorted(self):
-        """Print the list, but
-           sorted (ascending sort)
-        """
+        """Print the list, but sorted ascending sort."""
 
         print(sorted(self))
