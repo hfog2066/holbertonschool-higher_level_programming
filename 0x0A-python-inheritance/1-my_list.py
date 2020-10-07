@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-"""MyList
+
+"""
+Module for MyList.
 """
 
 
 class MyList(list):
-    """Contains list
-    """
+    """MyList class."""
 
     def print_sorted(self):
-        """Prints self in sorted format
-        """
-
+        """Prints the list, but sorted (ascending sort)."""
         print(sorted(self))
