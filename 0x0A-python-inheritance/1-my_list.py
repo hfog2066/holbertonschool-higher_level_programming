@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Module for MyList
-"""
+"""Module for MyList"""
 
 
 class MyList(list):
@@ -10,4 +8,5 @@ class MyList(list):
      """
 
     def print_sorted(self):
-        print(sorted(self))
+         """print_sorted method prints lists in a sorted."""
+        print(sorted(self)
