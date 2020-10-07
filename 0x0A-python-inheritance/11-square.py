@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-
-"""Square data that inherits from Rectangle which inherits
-   from BaseGeometry
+"""Square inherits from Rectangle which inherits from BaseGeometry
 """
 Rectangle = __import__('9-rectangle').Rectangle
 
+
 class Square(Rectangle):
-    """Square data that inherits from rectangle
-       init `size` twice because width a height
-      are same in squares.
+    """Square data that inherits from Rectangle
+       init `size` twice because width and height are same in squares
     """
 
     def __init__(self, size):
@@ -17,7 +15,7 @@ class Square(Rectangle):
         self.__size = size
 
     def area(self):
-        """Method to calcualte area of the square
+        """Method to calculate area of the square
         """
 
         return self.__size * self.__size
