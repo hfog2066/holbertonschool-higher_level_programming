@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Square inherits from Rectangle which inherits from BaseGeometry
 """
 
