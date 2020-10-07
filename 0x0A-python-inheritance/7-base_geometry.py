@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""BaseGeometry
+"""
+Module for BaseGeometry
 """
 
 
@@ -11,7 +12,7 @@ class BaseGeometry:
         """Funtion not implemented yet
         """
 
-        raise Exception("area()is not implemented")
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """Function that validates `value`
