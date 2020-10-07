@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """Square data that inherits from Rectangle which inherits
    from BaseGeometry
 """
