@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 
 """
-This is module for MyList.
+This is a module for MyList.
 """
 
 
 class MyList(list):
-    """MyList class."""
+    """A MyList class."""
 
     def print_sorted(self):
-        """print list, sorted ascending sort."""
+        """print the list, but sorted (ascending sort)."""
         print(sorted(self))
