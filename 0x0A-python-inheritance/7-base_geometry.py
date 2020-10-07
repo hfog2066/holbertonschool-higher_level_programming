@@ -1,15 +1,14 @@
 #!/usr/bin/python3
-"""
-Module for BaseGeometry
+"""BaseGeometry
 """
 
 
 class BaseGeometry:
-    """Contains function area(), integer_validator()
+    """Contains functions area(), integer_validator()
     """
 
     def area(self):
-        """Funtion not implemented yet
+        """Function not implemented yet
         """
 
         raise Exception("area() is not implemented")
