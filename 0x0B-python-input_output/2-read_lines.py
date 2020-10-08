@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-"""
-read_lines
+"""read_lines
 """
 import os
 
 
 def read_lines(filename="", nb_lines=0):
-    """Takes str filename to read, and n lines with int nb_lines
+    """Takes in str filename to read, and n lines w/ int nb_lines
     """
 
 
