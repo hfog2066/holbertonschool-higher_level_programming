@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """read_lines
 """
-import os
+
 
 
 def read_lines(filename="", nb_lines=0):
