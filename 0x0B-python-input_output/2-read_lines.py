@@ -3,12 +3,9 @@
 """
 
 
-
 def read_lines(filename="", nb_lines=0):
     """Takes in str filename to read, and n lines w/ int nb_lines
     """
-
-
     with open(filename, encoding="utf-8") as readFile:
         lineNum = 0
         while True:
