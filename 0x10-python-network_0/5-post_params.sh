@@ -1,4 +1,3 @@
 #!/bin/bash
-##!/bin/bash
 # cURL post
-curl -s -X POST -d "email=hr@holbertonschool.com&subject=I will always be here for PLD" "$1"
+curl -s "$1" -X POST -d "email=hr@holbertonschool.com&subject=I will always be here for PLD"
